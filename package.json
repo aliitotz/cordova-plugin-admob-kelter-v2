@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-admob-free",
+  "name": "cordova-plugin-admob-kelter-v2",
   "version": "0.18.0",
   "description": "Cordova AdMob Plugin for Google AdMob",
   "scripts": {
@@ -23,7 +23,7 @@
     "precommit": "lint-staged"
   },
   "cordova": {
-    "id": "cordova-plugin-admob-free",
+    "id": "cordova-plugin-admob-kelter-v2",
     "platforms": [
       "android",
       "ios"
