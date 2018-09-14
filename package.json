@@ -29,8 +29,8 @@
       "ios"
     ]
   },
-  "homepage": "https://ratson.github.io/cordova-plugin-admob-free/",
-  "repository": "ratson/cordova-plugin-admob-free",
+  "homepage": "https://github.com/kelter-antunes/cordova-plugin-admob-kelter-v2",
+  "repository": "kelter-antunes/cordova-plugin-admob-kelter-v2",
   "keywords": [
     "cordova",
     "admob",
@@ -44,7 +44,7 @@
     "admobpro"
   ],
   "tonicExampleFilename": "test.js",
-  "author": "Ratson",
+  "author": "Kelter",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",

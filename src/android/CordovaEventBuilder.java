@@ -1,4 +1,4 @@
-package name.ratson.cordova.admob;
+package name.kelter.cordova.admob;
 
 import org.json.JSONObject;
 
