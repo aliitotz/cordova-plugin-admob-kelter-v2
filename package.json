@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-admob-kelter-v2",
-  "version": "0.18.0",
+  "version": "1.0.0",
   "description": "Cordova AdMob Plugin for Google AdMob",
   "scripts": {
     "prepublish": "run-s clean build",
@@ -30,7 +30,10 @@
     ]
   },
   "homepage": "https://github.com/kelter-antunes/cordova-plugin-admob-kelter-v2",
-  "repository": "kelter-antunes/cordova-plugin-admob-kelter-v2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kelter-antunes/cordova-plugin-admob-kelter.git"
+  },
   "keywords": [
     "cordova",
     "admob",
