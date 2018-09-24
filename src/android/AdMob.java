@@ -1,4 +1,4 @@
-package com.kelter.cordova.admob;
+package name.kelter.cordova.admob;
 
 import android.os.Bundle;
 import android.provider.Settings;
@@ -24,9 +24,9 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Iterator;
 
-import com.kelter.cordova.admob.banner.BannerExecutor;
-import com.kelter.cordova.admob.interstitial.InterstitialExecutor;
-import com.kelter.cordova.admob.rewardvideo.RewardVideoExecutor;
+import name.kelter.cordova.admob.banner.BannerExecutor;
+import name.kelter.cordova.admob.interstitial.InterstitialExecutor;
+import name.kelter.cordova.admob.rewardvideo.RewardVideoExecutor;
 
 /**
  * This class represents the native implementation for the AdMob Cordova plugin.

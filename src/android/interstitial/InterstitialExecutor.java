@@ -1,4 +1,4 @@
-package com.kelter.cordova.admob.interstitial;
+package name.kelter.cordova.admob.interstitial;
 
 import android.util.Log;
 
@@ -9,9 +9,9 @@ import org.apache.cordova.CordovaInterface;
 import org.apache.cordova.PluginResult;
 import org.json.JSONObject;
 
-import com.kelter.cordova.admob.AbstractExecutor;
-import com.kelter.cordova.admob.AdMob;
-import com.kelter.cordova.admob.AdMobConfig;
+import name.kelter.cordova.admob.AbstractExecutor;
+import name.kelter.cordova.admob.AdMob;
+import name.kelter.cordova.admob.AdMobConfig;
 
 public class InterstitialExecutor extends AbstractExecutor {
     /**

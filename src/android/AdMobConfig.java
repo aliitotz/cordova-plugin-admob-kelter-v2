@@ -1,4 +1,4 @@
-package com.kelter.cordova.admob;
+package name.kelter.cordova.admob;
 
 import android.location.Location;
 import android.util.Log;
@@ -56,7 +56,7 @@ public class AdMobConfig {
     public Location location = null;
 
     // Banner
-    private static final String TEST_BANNER_ID = "ca-app-pub-5814248574003790/5354489735";
+    private static final String TEST_BANNER_ID = "ca-app-pub-3940256099942544/6300978111";
     private String bannerAdUnitId = "";
     public AdSize adSize = AdSize.SMART_BANNER;
     /**
@@ -70,11 +70,11 @@ public class AdMobConfig {
     public boolean offsetTopBar = false;
 
     // Interstial
-    private static final String TEST_INTERSTITIAL_ID = "ca-app-pub-5814248574003790/6831222932";
+    private static final String TEST_INTERSTITIAL_ID = "ca-app-pub-3940256099942544/1033173712";
     private String interstitialAdUnitId = "";
 
     // Reward Video
-    private static final String TEST_REWARDED_VIDEO_ID = "ca-app-pub-5814248574003790/2672115513";
+    private static final String TEST_REWARDED_VIDEO_ID = "ca-app-pub-3940256099942544/5224354917";
     private String rewardVideoId = "";
 
 

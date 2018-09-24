@@ -1,4 +1,4 @@
-package com.kelter.cordova.admob.rewardvideo;
+package name.kelter.cordova.admob.rewardvideo;
 
 import android.util.Log;
 
@@ -8,7 +8,7 @@ import com.google.android.gms.ads.reward.RewardedVideoAdListener;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.kelter.cordova.admob.AbstractExecutor;
+import name.kelter.cordova.admob.AbstractExecutor;
 
 class RewardVideoListener implements RewardedVideoAdListener {
     private final RewardVideoExecutor executor;

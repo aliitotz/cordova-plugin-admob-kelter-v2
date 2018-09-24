@@ -1,4 +1,4 @@
-package com.kelter.cordova.admob.rewardvideo;
+package name.kelter.cordova.admob.rewardvideo;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -13,8 +13,8 @@ import org.apache.cordova.CordovaInterface;
 import org.apache.cordova.PluginResult;
 import org.json.JSONObject;
 
-import com.kelter.cordova.admob.AbstractExecutor;
-import com.kelter.cordova.admob.AdMob;
+import name.kelter.cordova.admob.AbstractExecutor;
+import name.kelter.cordova.admob.AdMob;
 
 public class RewardVideoExecutor extends AbstractExecutor {
     /**

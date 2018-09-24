@@ -1,4 +1,4 @@
-package com.kelter.cordova.admob.banner;
+package name.kelter.cordova.admob.banner;
 
 import android.util.Log;
 
@@ -7,7 +7,7 @@ import com.google.android.gms.ads.AdListener;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.kelter.cordova.admob.AbstractExecutor;
+import name.kelter.cordova.admob.AbstractExecutor;
 
 class BannerListener extends AdListener {
     private final BannerExecutor executor;
