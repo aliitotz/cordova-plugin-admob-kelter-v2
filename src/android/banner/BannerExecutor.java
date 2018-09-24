@@ -1,4 +1,4 @@
-package name.kelter.cordova.admob.banner;
+package com.kelter.cordova.admob.banner;
 
 import android.util.Log;
 import android.view.View;
@@ -14,8 +14,8 @@ import org.apache.cordova.CordovaWebView;
 import org.apache.cordova.PluginResult;
 import org.json.JSONObject;
 
-import name.kelter.cordova.admob.AbstractExecutor;
-import name.kelter.cordova.admob.AdMob;
+import com.kelter.cordova.admob.AbstractExecutor;
+import com.kelter.cordova.admob.AdMob;
 
 public class BannerExecutor extends AbstractExecutor {
     private static final String TAG = "BannerExecutor";

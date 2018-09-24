@@ -1,4 +1,4 @@
-package name.kelter.cordova.admob;
+package com.kelter.cordova.admob;
 
 import com.google.android.gms.ads.AdRequest;
 

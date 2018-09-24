@@ -1,4 +1,4 @@
-package name.kelter.cordova.admob;
+package com.kelter.cordova.admob;
 
 /**
  * Cordova Actions.
