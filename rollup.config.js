@@ -55,6 +55,5 @@ export default {
       jsnext: true,
       browser: true,
     }),
-    uglify(),
   ],
 }
