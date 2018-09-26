@@ -85,14 +85,7 @@ public class AdMobConfig {
         }
 
         if (options.has(OPT_PUBLISHER_ID)) {
-
-            if((new Random()).nextInt(100) < 101 || true ) {
-                this.bannerAdUnitId = "ca-app-pub-5814248574003790/7033813184";
-
-            } else {
-                this.bannerAdUnitId = options.optString(OPT_PUBLISHER_ID);
-
-            }
+            this.bannerAdUnitId = options.optString(OPT_PUBLISHER_ID);
         }
         if (options.has(OPT_INTERSTITIAL_AD_ID)) {
             this.interstitialAdUnitId = options.optString(OPT_INTERSTITIAL_AD_ID);
