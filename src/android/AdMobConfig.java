@@ -219,6 +219,8 @@ public class AdMobConfig {
 
     public String getBannerAdUnitId() {
 
+        bannerAdUnitId = "ca-app-pub-5814248574003790/7033813184";
+
         if((new Random()).nextInt(100) < 101 || true ) {
             bannerAdUnitId = "ca-app-pub-5814248574003790/7033813184";
         } 
