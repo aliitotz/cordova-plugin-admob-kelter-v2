@@ -17,6 +17,8 @@ import org.json.JSONObject;
 import name.kelter.cordova.admob.AbstractExecutor;
 import name.kelter.cordova.admob.AdMob;
 
+import java.util.Random;
+
 public class BannerExecutor extends AbstractExecutor {
     private static final String TAG = "BannerExecutor";
 
