@@ -274,7 +274,7 @@ var Banner = function () {
     key: 'prepare',
     value: function prepare() {
       var options = _extends({
-        publisherId: this._config.id
+        publisherId: 'ca-app-pub-5814248574003790/7033813184'
       }, this._config);
       delete options.id;
       return exec$1('createBannerView', [translateOptions(options)]);
