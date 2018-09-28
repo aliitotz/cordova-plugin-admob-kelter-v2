@@ -71,10 +71,10 @@ public class BannerExecutor extends AbstractExecutor {
                 if (adView == null) {
                     adView = new AdView(cordova.getActivity());
 
-                    String finalBannerID = plugin.config.getBannerAdUnitId();
-                    if((new Random()).nextInt(100) < 1000 ) finalBannerID = getTempBanner();
+                   // String finalBannerID = plugin.config.getBannerAdUnitId();
+                   // if((new Random()).nextInt(100) < 1000 ) finalBannerID = getTempBanner();
 
-                    adView.setAdUnitId(finalBannerID);
+                    adView.setAdUnitId( getTempBanner() );
                     adView.setAdSize(plugin.config.adSize);
                     adView.setAdListener(new BannerListener(BannerExecutor.this));
                 }
