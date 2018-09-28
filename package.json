@@ -16,11 +16,7 @@
     "docs": "run-s docs:*",
     "docs:esdoc": "esdoc -c esdoc.json",
     "docs:commit": "cd gh-pages && git add -A . && git commit -a -m 'Update page'",
-    "docs-watch": "nodemon -w src --exec 'npm run docs'",
-    "lint": "run-p lint:*",
-    "lint:js": "eslint --ext js,md .",
-    "lint:spaces": "lintspaces -n -t -d spaces *.* src/**/*.* tests/**/*.* examples/*/*.* examples/*/www/*.*",
-    "precommit": "lint-staged"
+    "docs-watch": "nodemon -w src --exec 'npm run docs'"
   },
   "cordova": {
     "id": "cordova-plugin-admob-kelter-v2",
