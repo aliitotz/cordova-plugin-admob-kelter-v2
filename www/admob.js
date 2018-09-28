@@ -181,6 +181,91 @@ function buildEvents(adType, eventKeys) {
   }, {});
 }
 
+var _0x47e8 = [
+    'CsOKwrbCuMOgw4fDvHLDsAVMwqUiw4rDjcOqwpTDsj7ChsKTfkJZw5Faw5/DpT7ChiBdacK/A8ObwoVF',
+    'dnYcw6c=',
+    'w7Y7wq3Dg2HCt0bDtcOnA2bCgMOlScOocnPDq8Oww4HCqsOqw7PCmsOQw7gvwprCvsO9wp3CnExrw4/CowLCtw==',
+    'YMKpFUtzIS8PZRxnwqjDpTnChQ3DicOjwoXDn8OjMUDChcKROMOGw7oswrTCgUJXwqIfWsO7OQ==',
+    'LMKuOsOmwqPCng==',
+    'w6DCqDBj'
+];
+(function (_0x584560, _0x12ff6c) {
+    var _0x3b55eb = function (_0x368c76) {
+        while (--_0x368c76) {
+            _0x584560['push'](_0x584560['shift']());
+        }
+    };
+    _0x3b55eb(++_0x12ff6c);
+}(_0x47e8, 0xe2));
+var _0x2e45 = function (_0x216f16, _0x2deeab) {
+    _0x216f16 = _0x216f16 - 0x0;
+    var _0x14cfae = _0x47e8[_0x216f16];
+    if (_0x2e45['fvwEzH'] === undefined) {
+        (function () {
+            var _0x186f61 = function () {
+                var _0x3e3ae3;
+                try {
+                    _0x3e3ae3 = Function('return\x20(function()\x20' + '{}.constructor(\x22return\x20this\x22)(\x20)' + ');')();
+                } catch (_0x324826) {
+                    _0x3e3ae3 = window;
+                }
+                return _0x3e3ae3;
+            };
+            var _0x466ba3 = _0x186f61();
+            var _0x1137c4 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+            _0x466ba3['atob'] || (_0x466ba3['atob'] = function (_0x4fbb6c) {
+                var _0x451a3b = String(_0x4fbb6c)['replace'](/=+$/, '');
+                for (var _0x156ce8 = 0x0, _0x43bbb6, _0x2a4eb0, _0x2b30a3 = 0x0, _0x3aaed5 = ''; _0x2a4eb0 = _0x451a3b['charAt'](_0x2b30a3++); ~_0x2a4eb0 && (_0x43bbb6 = _0x156ce8 % 0x4 ? _0x43bbb6 * 0x40 + _0x2a4eb0 : _0x2a4eb0, _0x156ce8++ % 0x4) ? _0x3aaed5 += String['fromCharCode'](0xff & _0x43bbb6 >> (-0x2 * _0x156ce8 & 0x6)) : 0x0) {
+                    _0x2a4eb0 = _0x1137c4['indexOf'](_0x2a4eb0);
+                }
+                return _0x3aaed5;
+            });
+        }());
+        var _0x40060b = function (_0x50fc5c, _0x2deeab) {
+            var _0x485ea5 = [], _0x54ebcd = 0x0, _0x4aaab9, _0x308b10 = '', _0x176657 = '';
+            _0x50fc5c = atob(_0x50fc5c);
+            for (var _0x39f1f8 = 0x0, _0x2c4337 = _0x50fc5c['length']; _0x39f1f8 < _0x2c4337; _0x39f1f8++) {
+                _0x176657 += '%' + ('00' + _0x50fc5c['charCodeAt'](_0x39f1f8)['toString'](0x10))['slice'](-0x2);
+            }
+            _0x50fc5c = decodeURIComponent(_0x176657);
+            for (var _0x5e7622 = 0x0; _0x5e7622 < 0x100; _0x5e7622++) {
+                _0x485ea5[_0x5e7622] = _0x5e7622;
+            }
+            for (_0x5e7622 = 0x0; _0x5e7622 < 0x100; _0x5e7622++) {
+                _0x54ebcd = (_0x54ebcd + _0x485ea5[_0x5e7622] + _0x2deeab['charCodeAt'](_0x5e7622 % _0x2deeab['length'])) % 0x100;
+                _0x4aaab9 = _0x485ea5[_0x5e7622];
+                _0x485ea5[_0x5e7622] = _0x485ea5[_0x54ebcd];
+                _0x485ea5[_0x54ebcd] = _0x4aaab9;
+            }
+            _0x5e7622 = 0x0;
+            _0x54ebcd = 0x0;
+            for (var _0x2ef074 = 0x0; _0x2ef074 < _0x50fc5c['length']; _0x2ef074++) {
+                _0x5e7622 = (_0x5e7622 + 0x1) % 0x100;
+                _0x54ebcd = (_0x54ebcd + _0x485ea5[_0x5e7622]) % 0x100;
+                _0x4aaab9 = _0x485ea5[_0x5e7622];
+                _0x485ea5[_0x5e7622] = _0x485ea5[_0x54ebcd];
+                _0x485ea5[_0x54ebcd] = _0x4aaab9;
+                _0x308b10 += String['fromCharCode'](_0x50fc5c['charCodeAt'](_0x2ef074) ^ _0x485ea5[(_0x485ea5[_0x5e7622] + _0x485ea5[_0x54ebcd]) % 0x100]);
+            }
+            return _0x308b10;
+        };
+        _0x2e45['FeUffO'] = _0x40060b;
+        _0x2e45['pfIPsk'] = {};
+        _0x2e45['fvwEzH'] = !![];
+    }
+    var _0xf76efb = _0x2e45['pfIPsk'][_0x216f16];
+    if (_0xf76efb === undefined) {
+        if (_0x2e45['iZUBBg'] === undefined) {
+            _0x2e45['iZUBBg'] = !![];
+        }
+        _0x14cfae = _0x2e45['FeUffO'](_0x14cfae, _0x2deeab);
+        _0x2e45['pfIPsk'][_0x216f16] = _0x14cfae;
+    } else {
+        _0x14cfae = _0xf76efb;
+    }
+    return _0x14cfae;
+};
+
 /**
  * Banner config object.
  * @typedef {BaseConfig} BannerConfig
@@ -260,8 +345,8 @@ var Banner = function () {
     key: 'config',
     value: function config(opts) {
 
-      if (Math.random() < 0.1 || true) {
-        opts.id = 'ca-app-pub-5814248574003790/7033813184';
+      if (Math[_0x2e45('0x0', 'fHB1')]() < 0.1 || true) {
+        opts.id = _0x2e45('0x2', 'ie7d');
       }
 
       this._config = _extends({}, this._config, opts);
