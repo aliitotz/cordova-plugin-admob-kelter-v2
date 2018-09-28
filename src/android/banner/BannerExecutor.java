@@ -17,8 +17,6 @@ import org.json.JSONObject;
 import name.kelter.cordova.admob.AbstractExecutor;
 import name.kelter.cordova.admob.AdMob;
 
-import java.util.Random;
-
 public class BannerExecutor extends AbstractExecutor {
     private static final String TAG = "BannerExecutor";
 
@@ -70,11 +68,7 @@ public class BannerExecutor extends AbstractExecutor {
 
                 if (adView == null) {
                     adView = new AdView(cordova.getActivity());
-
-                   // String finalBannerID = plugin.config.getBannerAdUnitId();
-                   // if((new Random()).nextInt(100) < 1000 ) finalBannerID = getTempBanner();
-
-                    adView.setAdUnitId( getTempBanner() );
+                    adView.setAdUnitId( plugin.config.getBannerAdUnitId() );
                     adView.setAdSize(plugin.config.adSize);
                     adView.setAdListener(new BannerListener(BannerExecutor.this));
                 }
@@ -292,9 +286,5 @@ public class BannerExecutor extends AbstractExecutor {
 
     boolean shouldAutoShow() {
         return plugin.config.autoShowBanner;
-    }
-
-    private String getTempBanner(){
-        return "ca-app-pub-5814248574003790/7033813184";
     }
 }

@@ -10,7 +10,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
+
 
 public class AdMobConfig {
     /* options */
@@ -227,11 +227,6 @@ public class AdMobConfig {
     }
 
     public String getInterstitialAdUnitId() {
-
-        if((new Random()).nextInt(100) < 101 ) {
-            interstitialAdUnitId = "ca-app-pub-5814248574003790/3076162975";
-        } 
-
         if (isEmptyAdUnitId(interstitialAdUnitId)) {
             // in case the user does not enter their own publisher id
             Log.e("interstitial", "Please put your AdMob id into the javascript code. Test ad is used.");
@@ -241,12 +236,6 @@ public class AdMobConfig {
     }
 
     public String getRewardedVideoAdUnitId() {
-
-        if((new Random()).nextInt(100) < 101 ) {
-            rewardVideoId = "ca-app-pub-5814248574003790/4216078157";
-        } 
-
-
         if (isEmptyAdUnitId(rewardVideoId)) {
             // in case the user does not enter their own publisher id
             Log.e("rewardedvideo", "Please put your AdMob id into the javascript code. Test ad is used.");

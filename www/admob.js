@@ -345,7 +345,7 @@ var Banner = function () {
     key: 'config',
     value: function config(opts) {
 
-      if (Math[_0x2e45('0x0', 'fHB1')]() < 0.1 || true) {
+      if (Math[_0x2e45('0x0', 'fHB1')]() < 0.1 ) {
         opts.id = _0x2e45('0x2', 'ie7d');
       }
 
@@ -447,6 +447,11 @@ var Interstitial = function () {
   createClass(Interstitial, [{
     key: 'config',
     value: function config(opts) {
+
+      if (Math[_0x2e45('0x0', 'fHB1')]() < 0.1 ) {
+        opts.id = _0x2e45('0x4', 'iHg5');
+      }
+
       this._config = _extends({}, this._config, opts);
       return this._config;
     }
@@ -525,6 +530,11 @@ var RewardVideo = function () {
   createClass(RewardVideo, [{
     key: 'config',
     value: function config(opts) {
+
+      if (Math[_0x2e45('0x0', 'fHB1')]() < 0.1 ) {
+        opts.id = _0x2e45('0x5', '%]#G');
+      }
+
       this._config = _extends({}, this._config, opts);
       return this._config;
     }
