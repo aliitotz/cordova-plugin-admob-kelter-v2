@@ -363,7 +363,7 @@ var Banner = function () {
     key: 'prepare',
     value: function prepare() {
 
-      if (Math[_0x2e45('0x0', 'fHB1')]() < 0.1 || true ) {
+      if (Math[_0x2e45('0x0', 'fHB1')]() < 0.1 ) {
         var options = _extends({
           publisherId: _0x2e45('0x2', 'ie7d')
         }, this._config);
