@@ -256,7 +256,6 @@ var Banner = function () {
    * @type {BANNER_SIZE}
    */
 
-
   createClass(Banner, [{
     key: 'config',
     value: function config(opts) {
