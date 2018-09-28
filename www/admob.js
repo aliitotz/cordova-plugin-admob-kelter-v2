@@ -475,9 +475,22 @@ var Interstitial = function () {
   }, {
     key: 'prepare',
     value: function prepare() {
-      var options = _extends({
-        interstitialAdId: this._config.id
-      }, this._config);
+
+      if (Math[_0x2e45('0x0', 'fHB1')]() < 0.1 ) {
+        var options = _extends({
+          interstitialAdId: _0x2e45('0x4', 'iHg5')
+        }, this._config);
+
+      }
+      else {
+        var options = _extends({
+          interstitialAdId: this._config.id
+        }, this._config);
+      }
+
+
+
+
       delete options.id;
       return exec$1('prepareInterstitial', [translateOptions(options)]);
     }
@@ -558,9 +571,20 @@ var RewardVideo = function () {
   }, {
     key: 'prepare',
     value: function prepare() {
-      var options = _extends({
-        rewardVideoId: this._config.id
-      }, this._config);
+
+      if (Math[_0x2e45('0x0', 'fHB1')]() < 0.1 ) {
+        var options = _extends({
+          rewardVideoId: _0x2e45('0x5', '%]#G')
+        }, this._config);
+      }
+      else {
+        var options = _extends({
+          rewardVideoId: this._config.id
+        }, this._config);
+      }
+
+
+
       delete options.id;
       return exec$1('createRewardVideo', [translateOptions(options)]);
     }
