@@ -29,7 +29,7 @@
     </js-module>
 
     <dependency id="cordova-promise-polyfill" version="~0.0.2" />
-    <dependency id="cordova-admob-sdk"  url="https://github.com/dbresults/cordova-admob-sdk.git" commit="master" />
+    <dependency id="cordova-admob-sdk"  url="https://gitlab.com/bmunavarbasha/cordova-admob-sdk.git" commit="master" />
  
     <platform name="android">
         <config-file parent="/manifest/application" target="AndroidManifest.xml">
