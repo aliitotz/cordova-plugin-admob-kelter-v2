@@ -32,6 +32,9 @@
     
     <platform name="android">
         
+        <framework src="com.google.android.gms:play-services-base:16.2.0" />
+        <framework src="com.google.android.gms:play-services-ads:16.2.0" />
+        
         <config-file parent="/manifest/application" target="AndroidManifest.xml">
             <activity android:name="com.google.android.gms.ads.AdActivity"
                 android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
