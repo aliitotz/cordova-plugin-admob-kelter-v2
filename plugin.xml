@@ -47,11 +47,10 @@
                 <param name="onload" value="true" />
             </feature>
         </config-file>
-        <config-file parent="/*" target="res/xml/config.xml">
-            <plugin name="cordova-admob-sdk" spec="~0.24.1">
-                   <variable name="PLAY_SERVICES_VERSION" value="16.2.0" />
-            </plugin>
-        </config-file>
+        
+        <preference name="PLAY_SERVICES_VERSION" default="16.2.0"/>
+        <framework src="com.google.android.gms:play-services-base:$PLAY_SERVICES_VERSION" />
+        <framework src="com.google.android.gms:play-services-ads:$PLAY_SERVICES_VERSION" />
 
         <source-file src="src/android/banner/BannerExecutor.java" target-dir="src/name/kelter/cordova/admob/banner" />
         <source-file src="src/android/banner/BannerListener.java" target-dir="src/name/kelter/cordova/admob/banner" />
