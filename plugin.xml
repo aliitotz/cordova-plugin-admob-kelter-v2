@@ -30,13 +30,7 @@
 
     <dependency id="cordova-promise-polyfill" version="~0.0.2" />
     
-    <preference name="PLAY_SERVICES_VERSION" default="16.2.0"/>
-    
     <platform name="android">
-        
-        <framework src="com.google.android.gms:play-services-base:$PLAY_SERVICES_VERSION" />
-        <framework src="com.google.android.gms:play-services-ads:$PLAY_SERVICES_VERSION" />
-        <framework src="com.google.android.gms:play-services-ads-lite:$PLAY_SERVICES_VERSION" />
         
         <config-file parent="/manifest/application" target="AndroidManifest.xml">
             <activity android:name="com.google.android.gms.ads.AdActivity"
