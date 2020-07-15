@@ -29,8 +29,7 @@
     </js-module>
 
     <dependency id="cordova-promise-polyfill" version="~0.0.2" />
-    <dependency id="cordova-admob-sdk-updated" version="0.24.2" />
- 
+    
     <platform name="android">
         <config-file parent="/manifest/application" target="AndroidManifest.xml">
             <activity android:name="com.google.android.gms.ads.AdActivity"
@@ -48,10 +47,6 @@
             </feature>
         </config-file>
         
-        <preference name="PLAY_SERVICES_VERSION" default="16.2.0"/>
-        <framework src="com.google.android.gms:play-services-base:$PLAY_SERVICES_VERSION" />
-        <framework src="com.google.android.gms:play-services-ads:$PLAY_SERVICES_VERSION" />
-
         <source-file src="src/android/banner/BannerExecutor.java" target-dir="src/name/kelter/cordova/admob/banner" />
         <source-file src="src/android/banner/BannerListener.java" target-dir="src/name/kelter/cordova/admob/banner" />
         <source-file src="src/android/interstitial/InterstitialExecutor.java" target-dir="src/name/kelter/cordova/admob/interstitial" />
