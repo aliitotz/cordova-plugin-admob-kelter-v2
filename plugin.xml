@@ -30,12 +30,19 @@
 
     <dependency id="cordova-promise-polyfill" version="~0.0.2" />
     
+    <preference name="ADMOB_ANDROID_APP_ID" default=""/>
+    <preference name="ADMOB_IOS_APP_ID" default=""/>
+    <preference name="PLAY_SERVICES_VERSION" default="16.0.0"/>
+    
     <platform name="android">
         
         <config-file parent="/manifest/application" target="AndroidManifest.xml">
             <activity android:name="com.google.android.gms.ads.AdActivity"
                 android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
                 android:theme="@android:style/Theme.Translucent" />
+            <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="$ADMOB_ANDROID_APP_ID"/>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml">
             <uses-permission android:name="android.permission.INTERNET" />
@@ -68,6 +75,11 @@
                 <param name="ios-package" value="CDVAdMob" />
             </feature>
         </config-file>
+        
+        <config-file target="*-Info.plist" parent="GADApplicationIdentifier">
+            <string>$ADMOB_IOS_APP_ID</string>
+        </config-file>
+        
         <header-file src="src/ios/CDVAdMob.h" />
         <source-file src="src/ios/CDVAdMob.m" />
     </platform>
