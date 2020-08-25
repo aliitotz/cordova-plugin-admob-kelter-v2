@@ -35,7 +35,9 @@
     <preference name="PLAY_SERVICES_VERSION" default="16.0.0"/>
     
     <platform name="android">
-        
+
+        <framework src="com.google.android.gms:play-services-ads:$PLAY_SERVICES_VERSION" />
+
         <config-file parent="/manifest/application" target="AndroidManifest.xml">
             <activity android:name="com.google.android.gms.ads.AdActivity"
                 android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
