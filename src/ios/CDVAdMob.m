@@ -64,6 +64,9 @@
 #pragma mark Cordova JS bridge
 
 - (void)pluginInitialize {
+    
+    [[GADMobileAds sharedInstance] startWithCompletionHandler:nil];
+    
     [super pluginInitialize];
     if (self) {
         // These notifications are required for re-placing the ad on orientation
